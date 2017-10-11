@@ -1,0 +1,29 @@
+{
+  "name": "food-app",
+  "version": "1.0.0",
+  "description": "food booking application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedinrk/foodapp.git"
+  },
+  "keywords": [
+    "meanstack"
+  ],
+  "author": "Naveen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jedinrk/foodapp/issues"
+  },
+  "homepage": "https://github.com/jedinrk/foodapp#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
