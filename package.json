@@ -21,7 +21,11 @@
   },
   "homepage": "https://github.com/jedinrk/foodapp#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "bcrypt-nodejs": "0.0.3",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.12.1"
   },
   "devDependencies": {
     "mocha": "^4.0.1"
