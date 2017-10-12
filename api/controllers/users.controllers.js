@@ -5,10 +5,12 @@ var jwt = require('jsonwebtoken');
 
 module.exports.register = function(req, res){
 	console.log('registering user');
-
+	console.log(req.body);
 	var username = req.body.username;
 	var name = req.body.name || null;
 	var password = req.body.password;
+
+	console.log('username', username);
 
 	User.create({
 		username: username,

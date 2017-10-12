@@ -12,4 +12,4 @@ function config($routeProvider){
 			controller: RegisterController,
 			controllerAs: 'vm'
 		});
-};
+}

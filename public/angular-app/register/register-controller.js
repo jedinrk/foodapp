@@ -7,7 +7,7 @@ function RegisterController($http){
 		var user = {
 			username: vm.username,
 			password: vm.password
-		},
+		};
 
 		if(!vm.username || !vm.password){
 			vm.error = 'Please add a username and a password';
@@ -19,7 +19,7 @@ function RegisterController($http){
 					console.log(result);
 					vm.message = 'Successful registered, please login';
 					vm.error ='';					
-				}).catch(function(error)){
+				}).catch(function(error){
 					console.log(error);
 				});
 			}
