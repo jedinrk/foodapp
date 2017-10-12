@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/jedinrk/foodapp#readme",
   "dependencies": {
+    "angular": "^1.6.6",
+    "angular-route": "^1.6.6",
     "bcrypt-nodejs": "0.0.3",
     "express": "^4.16.2",
     "jsonwebtoken": "^8.1.0",
